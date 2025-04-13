@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # Baseado no video de David Bomball
 # link https://www.youtube.com/watch?v=3K1hUwxxYek
 # 13/04/2025
@@ -12,7 +12,7 @@ sudo apt install -y x11vnc
 
 
 touch /lib/systemd/system/x11vnc.service
-echo <<EOF> /lib/systemd/system/x11vnc.service
+cat <<EOF> /lib/systemd/system/x11vnc.service
 
 !Copy and paste these commands - change the password
 [Unit]
