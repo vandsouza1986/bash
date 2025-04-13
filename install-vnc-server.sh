@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-
+# Baseado no video de David Bomball
+# link https://www.youtube.com/watch?v=3K1hUwxxYek
+# 13/04/2025
 
 export DEBIAN_FRONTEND=noninteractive
 
